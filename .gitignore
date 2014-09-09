@@ -3,3 +3,6 @@ obj
 gen
 libs
 local.properties
+jni/Include
+jni/pyconfig.h
+jni/libpython2.6.so
