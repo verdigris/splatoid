@@ -15,6 +15,14 @@ extern "C" {
 JNIEXPORT jint JNICALL Java_mu_verdigris_splatoid_Splatoid_nativeTest
   (JNIEnv *, jobject);
 
+/*
+ * Class:     mu_verdigris_splatoid_Splatoid
+ * Method:    pythonTest
+ * Signature: (Ljava/lang/String;)I
+ */
+JNIEXPORT jint JNICALL Java_mu_verdigris_splatoid_Splatoid_pythonTest
+  (JNIEnv *, jobject, jstring);
+
 #ifdef __cplusplus
 }
 #endif
